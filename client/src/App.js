@@ -26,6 +26,7 @@ const App = () => {
                 <Routes>
                   <Route path='/' element={<PrivateRoute component={Home} />} />
                   <Route path='about' element={<About />} />  
+                  <Route path='register' element={<Register />} />  
                   <Route path='login' element={<Login />} />
                 </Routes>
               </div>
